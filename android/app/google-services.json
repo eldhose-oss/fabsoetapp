@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "918767239733",
+    "project_id": "fabs-oet",
+    "storage_bucket": "fabs-oet.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:918767239733:android:4df750c4ab90ca0096a77c",
+        "android_client_info": {
+          "package_name": "com.oetlearning.app.oet_learning_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "918767239733-me6mbk36s7uspekql2jogqio1rk26ii3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.oetlearning.app.oet_learning_app",
+            "certificate_hash": "17aa4015db8998d5f644e6aaf1cd5a3c2ea6631b"
+          }
+        },
+        {
+          "client_id": "918767239733-q78rnigro634c3qg0psrqusckgube5li.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAj-fB1HksCsBkAiTe4BwtCZzFagKrOPGQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "918767239733-q78rnigro634c3qg0psrqusckgube5li.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

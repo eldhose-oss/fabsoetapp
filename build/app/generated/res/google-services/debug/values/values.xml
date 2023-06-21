@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">918767239733-q78rnigro634c3qg0psrqusckgube5li.apps.googleusercontent.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">918767239733</string>
+    <string name="google_api_key" translatable="false">AIzaSyAj-fB1HksCsBkAiTe4BwtCZzFagKrOPGQ</string>
+    <string name="google_app_id" translatable="false">1:918767239733:android:4df750c4ab90ca0096a77c</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyAj-fB1HksCsBkAiTe4BwtCZzFagKrOPGQ</string>
+    <string name="google_storage_bucket" translatable="false">fabs-oet.appspot.com</string>
+    <string name="project_id" translatable="false">fabs-oet</string>
+</resources>

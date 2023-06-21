@@ -1,0 +1,496 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.oetlearning.app.oet_learning_app"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="24"
+9        android:targetSdkVersion="33" />
+10    <!--
+11         The INTERNET permission is required for development. Specifically,
+12         the Flutter tool needs it to communicate with the running application
+13         to allow setting breakpoints, to provide hot reload, etc.
+14    -->
+15    <uses-permission android:name="android.permission.INTERNET" />
+15-->C:\Users\eldho\Studio Projects\oet_learning_app\android\app\src\main\AndroidManifest.xml:57:5-66
+15-->C:\Users\eldho\Studio Projects\oet_learning_app\android\app\src\main\AndroidManifest.xml:57:22-64
+16
+17    <queries>
+17-->C:\Users\eldho\Studio Projects\oet_learning_app\android\app\src\main\AndroidManifest.xml:35:5-56:15
+18
+19        <!-- If your app opens https URLs -->
+20        <intent>
+20-->C:\Users\eldho\Studio Projects\oet_learning_app\android\app\src\main\AndroidManifest.xml:37:9-40:18
+21            <action android:name="android.intent.action.VIEW" />
+21-->C:\Users\eldho\Studio Projects\oet_learning_app\android\app\src\main\AndroidManifest.xml:38:13-65
+21-->C:\Users\eldho\Studio Projects\oet_learning_app\android\app\src\main\AndroidManifest.xml:38:21-62
+22
+23            <data android:scheme="https" />
+23-->C:\Users\eldho\Studio Projects\oet_learning_app\android\app\src\main\AndroidManifest.xml:39:13-44
+23-->C:\Users\eldho\Studio Projects\oet_learning_app\android\app\src\main\AndroidManifest.xml:39:19-41
+24        </intent>
+25        <!-- If your app makes calls -->
+26        <intent>
+26-->C:\Users\eldho\Studio Projects\oet_learning_app\android\app\src\main\AndroidManifest.xml:42:9-45:18
+27            <action android:name="android.intent.action.DIAL" />
+27-->C:\Users\eldho\Studio Projects\oet_learning_app\android\app\src\main\AndroidManifest.xml:43:13-65
+27-->C:\Users\eldho\Studio Projects\oet_learning_app\android\app\src\main\AndroidManifest.xml:43:21-62
+28
+29            <data android:scheme="tel" />
+29-->C:\Users\eldho\Studio Projects\oet_learning_app\android\app\src\main\AndroidManifest.xml:39:13-44
+29-->C:\Users\eldho\Studio Projects\oet_learning_app\android\app\src\main\AndroidManifest.xml:39:19-41
+30        </intent>
+31        <!-- If your sends SMS messages -->
+32        <intent>
+32-->C:\Users\eldho\Studio Projects\oet_learning_app\android\app\src\main\AndroidManifest.xml:47:9-50:18
+33            <action android:name="android.intent.action.SENDTO" />
+33-->C:\Users\eldho\Studio Projects\oet_learning_app\android\app\src\main\AndroidManifest.xml:48:13-67
+33-->C:\Users\eldho\Studio Projects\oet_learning_app\android\app\src\main\AndroidManifest.xml:48:21-64
+34
+35            <data android:scheme="smsto" />
+35-->C:\Users\eldho\Studio Projects\oet_learning_app\android\app\src\main\AndroidManifest.xml:39:13-44
+35-->C:\Users\eldho\Studio Projects\oet_learning_app\android\app\src\main\AndroidManifest.xml:39:19-41
+36        </intent>
+37        <!-- If your app sends emails -->
+38        <intent>
+38-->C:\Users\eldho\Studio Projects\oet_learning_app\android\app\src\main\AndroidManifest.xml:52:9-55:18
+39            <action android:name="android.intent.action.SEND" />
+39-->C:\Users\eldho\Studio Projects\oet_learning_app\android\app\src\main\AndroidManifest.xml:53:13-65
+39-->C:\Users\eldho\Studio Projects\oet_learning_app\android\app\src\main\AndroidManifest.xml:53:21-62
+40
+41            <data android:mimeType="*/*" />
+41-->C:\Users\eldho\Studio Projects\oet_learning_app\android\app\src\main\AndroidManifest.xml:39:13-44
+42        </intent>
+43        <intent>
+43-->[:flutter_inappwebview] C:\Users\eldho\Studio Projects\oet_learning_app\build\flutter_inappwebview\intermediates\merged_manifest\debug\AndroidManifest.xml:10:9-12:18
+44            <action android:name="android.support.customtabs.action.CustomTabsService" />
+44-->[:flutter_inappwebview] C:\Users\eldho\Studio Projects\oet_learning_app\build\flutter_inappwebview\intermediates\merged_manifest\debug\AndroidManifest.xml:11:13-90
+44-->[:flutter_inappwebview] C:\Users\eldho\Studio Projects\oet_learning_app\build\flutter_inappwebview\intermediates\merged_manifest\debug\AndroidManifest.xml:11:21-87
+45        </intent>
+46    </queries>
+47
+48    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+48-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\eldho\.gradle\caches\transforms-3\e7f0c2ccca178a16202bce082979d5e1\transformed\jetified-firebase-auth-22.0.0\AndroidManifest.xml:26:5-79
+48-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\eldho\.gradle\caches\transforms-3\e7f0c2ccca178a16202bce082979d5e1\transformed\jetified-firebase-auth-22.0.0\AndroidManifest.xml:26:22-76
+49    <uses-permission android:name="android.permission.WAKE_LOCK" />
+49-->[com.google.android.gms:play-services-measurement-api:21.3.0] C:\Users\eldho\.gradle\caches\transforms-3\c9a350eba8a87002e622cb0b177ee9a9\transformed\jetified-play-services-measurement-api-21.3.0\AndroidManifest.xml:24:5-68
+49-->[com.google.android.gms:play-services-measurement-api:21.3.0] C:\Users\eldho\.gradle\caches\transforms-3\c9a350eba8a87002e622cb0b177ee9a9\transformed\jetified-play-services-measurement-api-21.3.0\AndroidManifest.xml:24:22-65
+50    <uses-permission android:name="com.google.android.gms.permission.AD_ID" />
+50-->[com.google.android.gms:play-services-measurement-api:21.3.0] C:\Users\eldho\.gradle\caches\transforms-3\c9a350eba8a87002e622cb0b177ee9a9\transformed\jetified-play-services-measurement-api-21.3.0\AndroidManifest.xml:25:5-79
+50-->[com.google.android.gms:play-services-measurement-api:21.3.0] C:\Users\eldho\.gradle\caches\transforms-3\c9a350eba8a87002e622cb0b177ee9a9\transformed\jetified-play-services-measurement-api-21.3.0\AndroidManifest.xml:25:22-76
+51    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+51-->[com.google.android.gms:play-services-measurement:21.3.0] C:\Users\eldho\.gradle\caches\transforms-3\1dc98e173c4c17f0e6827d4bfdd02b27\transformed\jetified-play-services-measurement-21.3.0\AndroidManifest.xml:26:5-110
+51-->[com.google.android.gms:play-services-measurement:21.3.0] C:\Users\eldho\.gradle\caches\transforms-3\1dc98e173c4c17f0e6827d4bfdd02b27\transformed\jetified-play-services-measurement-21.3.0\AndroidManifest.xml:26:22-107
+52
+53    <permission
+53-->[androidx.core:core:1.10.1] C:\Users\eldho\.gradle\caches\transforms-3\e73600b7204754fa6eaab4c4f4dd2179\transformed\core-1.10.1\AndroidManifest.xml:22:5-24:47
+54        android:name="com.oetlearning.app.oet_learning_app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+54-->[androidx.core:core:1.10.1] C:\Users\eldho\.gradle\caches\transforms-3\e73600b7204754fa6eaab4c4f4dd2179\transformed\core-1.10.1\AndroidManifest.xml:23:9-81
+55        android:protectionLevel="signature" />
+55-->[androidx.core:core:1.10.1] C:\Users\eldho\.gradle\caches\transforms-3\e73600b7204754fa6eaab4c4f4dd2179\transformed\core-1.10.1\AndroidManifest.xml:24:9-44
+56
+57    <uses-permission android:name="com.oetlearning.app.oet_learning_app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+57-->[androidx.core:core:1.10.1] C:\Users\eldho\.gradle\caches\transforms-3\e73600b7204754fa6eaab4c4f4dd2179\transformed\core-1.10.1\AndroidManifest.xml:26:5-97
+57-->[androidx.core:core:1.10.1] C:\Users\eldho\.gradle\caches\transforms-3\e73600b7204754fa6eaab4c4f4dd2179\transformed\core-1.10.1\AndroidManifest.xml:26:22-94
+58
+59    <application
+60        android:name="android.app.Application"
+61        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+61-->[androidx.core:core:1.10.1] C:\Users\eldho\.gradle\caches\transforms-3\e73600b7204754fa6eaab4c4f4dd2179\transformed\core-1.10.1\AndroidManifest.xml:28:18-86
+62        android:debuggable="true"
+63        android:extractNativeLibs="false"
+64        android:icon="@mipmap/ic_launcher"
+65        android:label="Fabs OET" >
+66        <activity
+67            android:name="com.oetlearning.app.oet_learning_app.MainActivity"
+68            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+69            android:exported="true"
+70            android:hardwareAccelerated="true"
+71            android:launchMode="singleTop"
+72            android:theme="@style/LaunchTheme"
+73            android:windowSoftInputMode="adjustResize" >
+74
+75            <!--
+76                 Specifies an Android theme to apply to this Activity as soon as
+77                 the Android process has started. This theme is visible to the user
+78                 while the Flutter UI initializes. After that, this theme continues
+79                 to determine the Window background behind the Flutter UI.
+80            -->
+81            <meta-data
+82                android:name="io.flutter.embedding.android.NormalTheme"
+83                android:resource="@style/NormalTheme" />
+84
+85            <intent-filter>
+86                <action android:name="android.intent.action.MAIN" />
+87
+88                <category android:name="android.intent.category.LAUNCHER" />
+89            </intent-filter>
+90        </activity>
+91        <!--
+92             Don't delete the meta-data below.
+93             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+94        -->
+95        <meta-data
+96            android:name="flutterEmbedding"
+97            android:value="2" />
+98
+99        <service
+99-->[:firebase_auth] C:\Users\eldho\Studio Projects\oet_learning_app\build\firebase_auth\intermediates\merged_manifest\debug\AndroidManifest.xml:10:9-14:19
+100            android:name="com.google.firebase.components.ComponentDiscoveryService"
+100-->[:firebase_auth] C:\Users\eldho\Studio Projects\oet_learning_app\build\firebase_auth\intermediates\merged_manifest\debug\AndroidManifest.xml:10:18-89
+101            android:directBootAware="true"
+101-->[com.google.firebase:firebase-common:20.3.2] C:\Users\eldho\.gradle\caches\transforms-3\026de80ea9d0b63bfc94ec9a10c1d73c\transformed\jetified-firebase-common-20.3.2\AndroidManifest.xml:34:13-43
+102            android:exported="false" >
+102-->[com.google.firebase:firebase-analytics-ktx:21.3.0] C:\Users\eldho\.gradle\caches\transforms-3\ba6484313069de41474a0f1debca5b79\transformed\jetified-firebase-analytics-ktx-21.3.0\AndroidManifest.xml:10:13-37
+103            <meta-data
+103-->[:firebase_auth] C:\Users\eldho\Studio Projects\oet_learning_app\build\firebase_auth\intermediates\merged_manifest\debug\AndroidManifest.xml:11:13-13:85
+104                android:name="com.google.firebase.components:io.flutter.plugins.firebase.auth.FlutterFirebaseAuthRegistrar"
+104-->[:firebase_auth] C:\Users\eldho\Studio Projects\oet_learning_app\build\firebase_auth\intermediates\merged_manifest\debug\AndroidManifest.xml:12:17-124
+105                android:value="com.google.firebase.components.ComponentRegistrar" />
+105-->[:firebase_auth] C:\Users\eldho\Studio Projects\oet_learning_app\build\firebase_auth\intermediates\merged_manifest\debug\AndroidManifest.xml:13:17-82
+106            <meta-data
+106-->[:cloud_firestore] C:\Users\eldho\Studio Projects\oet_learning_app\build\cloud_firestore\intermediates\merged_manifest\debug\AndroidManifest.xml:11:13-13:85
+107                android:name="com.google.firebase.components:io.flutter.plugins.firebase.firestore.FlutterFirebaseFirestoreRegistrar"
+107-->[:cloud_firestore] C:\Users\eldho\Studio Projects\oet_learning_app\build\cloud_firestore\intermediates\merged_manifest\debug\AndroidManifest.xml:12:17-134
+108                android:value="com.google.firebase.components.ComponentRegistrar" />
+108-->[:cloud_firestore] C:\Users\eldho\Studio Projects\oet_learning_app\build\cloud_firestore\intermediates\merged_manifest\debug\AndroidManifest.xml:13:17-82
+109            <meta-data
+109-->[:firebase_core] C:\Users\eldho\Studio Projects\oet_learning_app\build\firebase_core\intermediates\merged_manifest\debug\AndroidManifest.xml:11:13-13:85
+110                android:name="com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseCoreRegistrar"
+110-->[:firebase_core] C:\Users\eldho\Studio Projects\oet_learning_app\build\firebase_core\intermediates\merged_manifest\debug\AndroidManifest.xml:12:17-124
+111                android:value="com.google.firebase.components.ComponentRegistrar" />
+111-->[:firebase_core] C:\Users\eldho\Studio Projects\oet_learning_app\build\firebase_core\intermediates\merged_manifest\debug\AndroidManifest.xml:13:17-82
+112            <meta-data
+112-->[com.google.firebase:firebase-analytics-ktx:21.3.0] C:\Users\eldho\.gradle\caches\transforms-3\ba6484313069de41474a0f1debca5b79\transformed\jetified-firebase-analytics-ktx-21.3.0\AndroidManifest.xml:11:13-13:85
+113                android:name="com.google.firebase.components:com.google.firebase.analytics.ktx.FirebaseAnalyticsKtxRegistrar"
+113-->[com.google.firebase:firebase-analytics-ktx:21.3.0] C:\Users\eldho\.gradle\caches\transforms-3\ba6484313069de41474a0f1debca5b79\transformed\jetified-firebase-analytics-ktx-21.3.0\AndroidManifest.xml:12:17-126
+114                android:value="com.google.firebase.components.ComponentRegistrar" />
+114-->[com.google.firebase:firebase-analytics-ktx:21.3.0] C:\Users\eldho\.gradle\caches\transforms-3\ba6484313069de41474a0f1debca5b79\transformed\jetified-firebase-analytics-ktx-21.3.0\AndroidManifest.xml:13:17-82
+115            <meta-data
+115-->[com.google.firebase:firebase-common-ktx:20.3.2] C:\Users\eldho\.gradle\caches\transforms-3\7ed1776c1ce3f25bf00b6ffa6589c05b\transformed\jetified-firebase-common-ktx-20.3.2\AndroidManifest.xml:14:13-16:85
+116                android:name="com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonKtxRegistrar"
+116-->[com.google.firebase:firebase-common-ktx:20.3.2] C:\Users\eldho\.gradle\caches\transforms-3\7ed1776c1ce3f25bf00b6ffa6589c05b\transformed\jetified-firebase-common-ktx-20.3.2\AndroidManifest.xml:15:17-113
+117                android:value="com.google.firebase.components.ComponentRegistrar" />
+117-->[com.google.firebase:firebase-common-ktx:20.3.2] C:\Users\eldho\.gradle\caches\transforms-3\7ed1776c1ce3f25bf00b6ffa6589c05b\transformed\jetified-firebase-common-ktx-20.3.2\AndroidManifest.xml:16:17-82
+118            <meta-data
+118-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\eldho\.gradle\caches\transforms-3\e7f0c2ccca178a16202bce082979d5e1\transformed\jetified-firebase-auth-22.0.0\AndroidManifest.xml:69:13-71:85
+119                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+119-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\eldho\.gradle\caches\transforms-3\e7f0c2ccca178a16202bce082979d5e1\transformed\jetified-firebase-auth-22.0.0\AndroidManifest.xml:70:17-109
+120                android:value="com.google.firebase.components.ComponentRegistrar" />
+120-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\eldho\.gradle\caches\transforms-3\e7f0c2ccca178a16202bce082979d5e1\transformed\jetified-firebase-auth-22.0.0\AndroidManifest.xml:71:17-82
+121            <meta-data
+121-->[com.google.firebase:firebase-firestore:24.6.1] C:\Users\eldho\.gradle\caches\transforms-3\0dc54883ea900c88249d24e2b32fa91d\transformed\jetified-firebase-firestore-24.6.1\AndroidManifest.xml:19:13-21:85
+122                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
+122-->[com.google.firebase:firebase-firestore:24.6.1] C:\Users\eldho\.gradle\caches\transforms-3\0dc54883ea900c88249d24e2b32fa91d\transformed\jetified-firebase-firestore-24.6.1\AndroidManifest.xml:20:17-111
+123                android:value="com.google.firebase.components.ComponentRegistrar" />
+123-->[com.google.firebase:firebase-firestore:24.6.1] C:\Users\eldho\.gradle\caches\transforms-3\0dc54883ea900c88249d24e2b32fa91d\transformed\jetified-firebase-firestore-24.6.1\AndroidManifest.xml:21:17-82
+124            <meta-data
+124-->[com.google.android.gms:play-services-measurement-api:21.3.0] C:\Users\eldho\.gradle\caches\transforms-3\c9a350eba8a87002e622cb0b177ee9a9\transformed\jetified-play-services-measurement-api-21.3.0\AndroidManifest.xml:31:13-33:85
+125                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+125-->[com.google.android.gms:play-services-measurement-api:21.3.0] C:\Users\eldho\.gradle\caches\transforms-3\c9a350eba8a87002e622cb0b177ee9a9\transformed\jetified-play-services-measurement-api-21.3.0\AndroidManifest.xml:32:17-139
+126                android:value="com.google.firebase.components.ComponentRegistrar" />
+126-->[com.google.android.gms:play-services-measurement-api:21.3.0] C:\Users\eldho\.gradle\caches\transforms-3\c9a350eba8a87002e622cb0b177ee9a9\transformed\jetified-play-services-measurement-api-21.3.0\AndroidManifest.xml:33:17-82
+127            <meta-data
+127-->[com.google.firebase:firebase-installations:17.1.3] C:\Users\eldho\.gradle\caches\transforms-3\c6892a04519549dabf7974bc7e92594e\transformed\jetified-firebase-installations-17.1.3\AndroidManifest.xml:17:13-19:85
+128                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+128-->[com.google.firebase:firebase-installations:17.1.3] C:\Users\eldho\.gradle\caches\transforms-3\c6892a04519549dabf7974bc7e92594e\transformed\jetified-firebase-installations-17.1.3\AndroidManifest.xml:18:17-127
+129                android:value="com.google.firebase.components.ComponentRegistrar" />
+129-->[com.google.firebase:firebase-installations:17.1.3] C:\Users\eldho\.gradle\caches\transforms-3\c6892a04519549dabf7974bc7e92594e\transformed\jetified-firebase-installations-17.1.3\AndroidManifest.xml:19:17-82
+130        </service>
+131
+132        <activity
+132-->[:flutter_inappwebview] C:\Users\eldho\Studio Projects\oet_learning_app\build\flutter_inappwebview\intermediates\merged_manifest\debug\AndroidManifest.xml:16:9-20:47
+133            android:name="com.pichillilorenzo.flutter_inappwebview.in_app_browser.InAppBrowserActivity"
+133-->[:flutter_inappwebview] C:\Users\eldho\Studio Projects\oet_learning_app\build\flutter_inappwebview\intermediates\merged_manifest\debug\AndroidManifest.xml:17:13-104
+134            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|locale|layoutDirection|fontScale|screenLayout|density"
+134-->[:flutter_inappwebview] C:\Users\eldho\Studio Projects\oet_learning_app\build\flutter_inappwebview\intermediates\merged_manifest\debug\AndroidManifest.xml:18:13-137
+135            android:exported="false"
+135-->[:flutter_inappwebview] C:\Users\eldho\Studio Projects\oet_learning_app\build\flutter_inappwebview\intermediates\merged_manifest\debug\AndroidManifest.xml:19:13-37
+136            android:theme="@style/AppTheme" />
+136-->[:flutter_inappwebview] C:\Users\eldho\Studio Projects\oet_learning_app\build\flutter_inappwebview\intermediates\merged_manifest\debug\AndroidManifest.xml:20:13-44
+137        <activity
+137-->[:flutter_inappwebview] C:\Users\eldho\Studio Projects\oet_learning_app\build\flutter_inappwebview\intermediates\merged_manifest\debug\AndroidManifest.xml:21:9-24:55
+138            android:name="com.pichillilorenzo.flutter_inappwebview.chrome_custom_tabs.ChromeCustomTabsActivity"
+138-->[:flutter_inappwebview] C:\Users\eldho\Studio Projects\oet_learning_app\build\flutter_inappwebview\intermediates\merged_manifest\debug\AndroidManifest.xml:22:13-112
+139            android:exported="false"
+139-->[:flutter_inappwebview] C:\Users\eldho\Studio Projects\oet_learning_app\build\flutter_inappwebview\intermediates\merged_manifest\debug\AndroidManifest.xml:23:13-37
+140            android:theme="@style/ThemeTransparent" />
+140-->[:flutter_inappwebview] C:\Users\eldho\Studio Projects\oet_learning_app\build\flutter_inappwebview\intermediates\merged_manifest\debug\AndroidManifest.xml:24:13-52
+141        <activity
+141-->[:flutter_inappwebview] C:\Users\eldho\Studio Projects\oet_learning_app\build\flutter_inappwebview\intermediates\merged_manifest\debug\AndroidManifest.xml:25:9-28:55
+142            android:name="com.pichillilorenzo.flutter_inappwebview.chrome_custom_tabs.TrustedWebActivity"
+142-->[:flutter_inappwebview] C:\Users\eldho\Studio Projects\oet_learning_app\build\flutter_inappwebview\intermediates\merged_manifest\debug\AndroidManifest.xml:26:13-106
+143            android:exported="false"
+143-->[:flutter_inappwebview] C:\Users\eldho\Studio Projects\oet_learning_app\build\flutter_inappwebview\intermediates\merged_manifest\debug\AndroidManifest.xml:27:13-37
+144            android:theme="@style/ThemeTransparent" />
+144-->[:flutter_inappwebview] C:\Users\eldho\Studio Projects\oet_learning_app\build\flutter_inappwebview\intermediates\merged_manifest\debug\AndroidManifest.xml:28:13-52
+145        <activity
+145-->[:flutter_inappwebview] C:\Users\eldho\Studio Projects\oet_learning_app\build\flutter_inappwebview\intermediates\merged_manifest\debug\AndroidManifest.xml:29:9-33:55
+146            android:name="com.pichillilorenzo.flutter_inappwebview.chrome_custom_tabs.ChromeCustomTabsActivitySingleInstance"
+146-->[:flutter_inappwebview] C:\Users\eldho\Studio Projects\oet_learning_app\build\flutter_inappwebview\intermediates\merged_manifest\debug\AndroidManifest.xml:30:13-126
+147            android:exported="false"
+147-->[:flutter_inappwebview] C:\Users\eldho\Studio Projects\oet_learning_app\build\flutter_inappwebview\intermediates\merged_manifest\debug\AndroidManifest.xml:31:13-37
+148            android:launchMode="singleInstance"
+148-->[:flutter_inappwebview] C:\Users\eldho\Studio Projects\oet_learning_app\build\flutter_inappwebview\intermediates\merged_manifest\debug\AndroidManifest.xml:32:13-48
+149            android:theme="@style/ThemeTransparent" />
+149-->[:flutter_inappwebview] C:\Users\eldho\Studio Projects\oet_learning_app\build\flutter_inappwebview\intermediates\merged_manifest\debug\AndroidManifest.xml:33:13-52
+150        <activity
+150-->[:flutter_inappwebview] C:\Users\eldho\Studio Projects\oet_learning_app\build\flutter_inappwebview\intermediates\merged_manifest\debug\AndroidManifest.xml:34:9-38:55
+151            android:name="com.pichillilorenzo.flutter_inappwebview.chrome_custom_tabs.TrustedWebActivitySingleInstance"
+151-->[:flutter_inappwebview] C:\Users\eldho\Studio Projects\oet_learning_app\build\flutter_inappwebview\intermediates\merged_manifest\debug\AndroidManifest.xml:35:13-120
+152            android:exported="false"
+152-->[:flutter_inappwebview] C:\Users\eldho\Studio Projects\oet_learning_app\build\flutter_inappwebview\intermediates\merged_manifest\debug\AndroidManifest.xml:36:13-37
+153            android:launchMode="singleInstance"
+153-->[:flutter_inappwebview] C:\Users\eldho\Studio Projects\oet_learning_app\build\flutter_inappwebview\intermediates\merged_manifest\debug\AndroidManifest.xml:37:13-48
+154            android:theme="@style/ThemeTransparent" />
+154-->[:flutter_inappwebview] C:\Users\eldho\Studio Projects\oet_learning_app\build\flutter_inappwebview\intermediates\merged_manifest\debug\AndroidManifest.xml:38:13-52
+155
+156        <receiver
+156-->[:flutter_inappwebview] C:\Users\eldho\Studio Projects\oet_learning_app\build\flutter_inappwebview\intermediates\merged_manifest\debug\AndroidManifest.xml:40:9-43:40
+157            android:name="com.pichillilorenzo.flutter_inappwebview.chrome_custom_tabs.ActionBroadcastReceiver"
+157-->[:flutter_inappwebview] C:\Users\eldho\Studio Projects\oet_learning_app\build\flutter_inappwebview\intermediates\merged_manifest\debug\AndroidManifest.xml:41:13-111
+158            android:enabled="true"
+158-->[:flutter_inappwebview] C:\Users\eldho\Studio Projects\oet_learning_app\build\flutter_inappwebview\intermediates\merged_manifest\debug\AndroidManifest.xml:42:13-35
+159            android:exported="false" />
+159-->[:flutter_inappwebview] C:\Users\eldho\Studio Projects\oet_learning_app\build\flutter_inappwebview\intermediates\merged_manifest\debug\AndroidManifest.xml:43:13-37
+160
+161        <meta-data
+161-->[:flutter_inappwebview] C:\Users\eldho\Studio Projects\oet_learning_app\build\flutter_inappwebview\intermediates\merged_manifest\debug\AndroidManifest.xml:45:9-47:36
+162            android:name="io.flutter.embedded_views_preview"
+162-->[:flutter_inappwebview] C:\Users\eldho\Studio Projects\oet_learning_app\build\flutter_inappwebview\intermediates\merged_manifest\debug\AndroidManifest.xml:46:13-61
+163            android:value="true" />
+163-->[:flutter_inappwebview] C:\Users\eldho\Studio Projects\oet_learning_app\build\flutter_inappwebview\intermediates\merged_manifest\debug\AndroidManifest.xml:47:13-33
+164
+165        <provider
+165-->[:image_picker_android] C:\Users\eldho\Studio Projects\oet_learning_app\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:10:9-18:20
+166            android:name="io.flutter.plugins.imagepicker.ImagePickerFileProvider"
+166-->[:image_picker_android] C:\Users\eldho\Studio Projects\oet_learning_app\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:11:13-82
+167            android:authorities="com.oetlearning.app.oet_learning_app.flutter.image_provider"
+167-->[:image_picker_android] C:\Users\eldho\Studio Projects\oet_learning_app\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:12:13-74
+168            android:exported="false"
+168-->[:image_picker_android] C:\Users\eldho\Studio Projects\oet_learning_app\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:13:13-37
+169            android:grantUriPermissions="true" >
+169-->[:image_picker_android] C:\Users\eldho\Studio Projects\oet_learning_app\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:14:13-47
+170            <meta-data
+170-->[:image_picker_android] C:\Users\eldho\Studio Projects\oet_learning_app\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:15:13-17:75
+171                android:name="android.support.FILE_PROVIDER_PATHS"
+171-->[:image_picker_android] C:\Users\eldho\Studio Projects\oet_learning_app\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:16:17-67
+172                android:resource="@xml/flutter_image_picker_file_paths" />
+172-->[:image_picker_android] C:\Users\eldho\Studio Projects\oet_learning_app\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:17:17-72
+173        </provider>
+174
+175        <activity
+175-->[:url_launcher_android] C:\Users\eldho\Studio Projects\oet_learning_app\build\url_launcher_android\intermediates\merged_manifest\debug\AndroidManifest.xml:10:9-13:74
+176            android:name="io.flutter.plugins.urllauncher.WebViewActivity"
+176-->[:url_launcher_android] C:\Users\eldho\Studio Projects\oet_learning_app\build\url_launcher_android\intermediates\merged_manifest\debug\AndroidManifest.xml:11:13-74
+177            android:exported="false"
+177-->[:url_launcher_android] C:\Users\eldho\Studio Projects\oet_learning_app\build\url_launcher_android\intermediates\merged_manifest\debug\AndroidManifest.xml:12:13-37
+178            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+178-->[:url_launcher_android] C:\Users\eldho\Studio Projects\oet_learning_app\build\url_launcher_android\intermediates\merged_manifest\debug\AndroidManifest.xml:13:13-71
+179        <activity
+179-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\eldho\.gradle\caches\transforms-3\e7f0c2ccca178a16202bce082979d5e1\transformed\jetified-firebase-auth-22.0.0\AndroidManifest.xml:29:9-46:20
+180            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
+180-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\eldho\.gradle\caches\transforms-3\e7f0c2ccca178a16202bce082979d5e1\transformed\jetified-firebase-auth-22.0.0\AndroidManifest.xml:30:13-80
+181            android:excludeFromRecents="true"
+181-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\eldho\.gradle\caches\transforms-3\e7f0c2ccca178a16202bce082979d5e1\transformed\jetified-firebase-auth-22.0.0\AndroidManifest.xml:31:13-46
+182            android:exported="true"
+182-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\eldho\.gradle\caches\transforms-3\e7f0c2ccca178a16202bce082979d5e1\transformed\jetified-firebase-auth-22.0.0\AndroidManifest.xml:32:13-36
+183            android:launchMode="singleTask"
+183-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\eldho\.gradle\caches\transforms-3\e7f0c2ccca178a16202bce082979d5e1\transformed\jetified-firebase-auth-22.0.0\AndroidManifest.xml:33:13-44
+184            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+184-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\eldho\.gradle\caches\transforms-3\e7f0c2ccca178a16202bce082979d5e1\transformed\jetified-firebase-auth-22.0.0\AndroidManifest.xml:34:13-72
+185            <intent-filter>
+185-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\eldho\.gradle\caches\transforms-3\e7f0c2ccca178a16202bce082979d5e1\transformed\jetified-firebase-auth-22.0.0\AndroidManifest.xml:35:13-45:29
+186                <action android:name="android.intent.action.VIEW" />
+186-->C:\Users\eldho\Studio Projects\oet_learning_app\android\app\src\main\AndroidManifest.xml:38:13-65
+186-->C:\Users\eldho\Studio Projects\oet_learning_app\android\app\src\main\AndroidManifest.xml:38:21-62
+187
+188                <category android:name="android.intent.category.DEFAULT" />
+188-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\eldho\.gradle\caches\transforms-3\e7f0c2ccca178a16202bce082979d5e1\transformed\jetified-firebase-auth-22.0.0\AndroidManifest.xml:38:17-76
+188-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\eldho\.gradle\caches\transforms-3\e7f0c2ccca178a16202bce082979d5e1\transformed\jetified-firebase-auth-22.0.0\AndroidManifest.xml:38:27-73
+189                <category android:name="android.intent.category.BROWSABLE" />
+189-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\eldho\.gradle\caches\transforms-3\e7f0c2ccca178a16202bce082979d5e1\transformed\jetified-firebase-auth-22.0.0\AndroidManifest.xml:39:17-78
+189-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\eldho\.gradle\caches\transforms-3\e7f0c2ccca178a16202bce082979d5e1\transformed\jetified-firebase-auth-22.0.0\AndroidManifest.xml:39:27-75
+190
+191                <data
+191-->C:\Users\eldho\Studio Projects\oet_learning_app\android\app\src\main\AndroidManifest.xml:39:13-44
+192                    android:host="firebase.auth"
+193                    android:path="/"
+194                    android:scheme="genericidp" />
+194-->C:\Users\eldho\Studio Projects\oet_learning_app\android\app\src\main\AndroidManifest.xml:39:19-41
+195            </intent-filter>
+196        </activity>
+197        <activity
+197-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\eldho\.gradle\caches\transforms-3\e7f0c2ccca178a16202bce082979d5e1\transformed\jetified-firebase-auth-22.0.0\AndroidManifest.xml:47:9-64:20
+198            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
+198-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\eldho\.gradle\caches\transforms-3\e7f0c2ccca178a16202bce082979d5e1\transformed\jetified-firebase-auth-22.0.0\AndroidManifest.xml:48:13-79
+199            android:excludeFromRecents="true"
+199-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\eldho\.gradle\caches\transforms-3\e7f0c2ccca178a16202bce082979d5e1\transformed\jetified-firebase-auth-22.0.0\AndroidManifest.xml:49:13-46
+200            android:exported="true"
+200-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\eldho\.gradle\caches\transforms-3\e7f0c2ccca178a16202bce082979d5e1\transformed\jetified-firebase-auth-22.0.0\AndroidManifest.xml:50:13-36
+201            android:launchMode="singleTask"
+201-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\eldho\.gradle\caches\transforms-3\e7f0c2ccca178a16202bce082979d5e1\transformed\jetified-firebase-auth-22.0.0\AndroidManifest.xml:51:13-44
+202            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+202-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\eldho\.gradle\caches\transforms-3\e7f0c2ccca178a16202bce082979d5e1\transformed\jetified-firebase-auth-22.0.0\AndroidManifest.xml:52:13-72
+203            <intent-filter>
+203-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\eldho\.gradle\caches\transforms-3\e7f0c2ccca178a16202bce082979d5e1\transformed\jetified-firebase-auth-22.0.0\AndroidManifest.xml:53:13-63:29
+204                <action android:name="android.intent.action.VIEW" />
+204-->C:\Users\eldho\Studio Projects\oet_learning_app\android\app\src\main\AndroidManifest.xml:38:13-65
+204-->C:\Users\eldho\Studio Projects\oet_learning_app\android\app\src\main\AndroidManifest.xml:38:21-62
+205
+206                <category android:name="android.intent.category.DEFAULT" />
+206-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\eldho\.gradle\caches\transforms-3\e7f0c2ccca178a16202bce082979d5e1\transformed\jetified-firebase-auth-22.0.0\AndroidManifest.xml:38:17-76
+206-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\eldho\.gradle\caches\transforms-3\e7f0c2ccca178a16202bce082979d5e1\transformed\jetified-firebase-auth-22.0.0\AndroidManifest.xml:38:27-73
+207                <category android:name="android.intent.category.BROWSABLE" />
+207-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\eldho\.gradle\caches\transforms-3\e7f0c2ccca178a16202bce082979d5e1\transformed\jetified-firebase-auth-22.0.0\AndroidManifest.xml:39:17-78
+207-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\eldho\.gradle\caches\transforms-3\e7f0c2ccca178a16202bce082979d5e1\transformed\jetified-firebase-auth-22.0.0\AndroidManifest.xml:39:27-75
+208
+209                <data
+209-->C:\Users\eldho\Studio Projects\oet_learning_app\android\app\src\main\AndroidManifest.xml:39:13-44
+210                    android:host="firebase.auth"
+211                    android:path="/"
+212                    android:scheme="recaptcha" />
+212-->C:\Users\eldho\Studio Projects\oet_learning_app\android\app\src\main\AndroidManifest.xml:39:19-41
+213            </intent-filter>
+214        </activity>
+215
+216        <provider
+216-->[com.google.firebase:firebase-common:20.3.2] C:\Users\eldho\.gradle\caches\transforms-3\026de80ea9d0b63bfc94ec9a10c1d73c\transformed\jetified-firebase-common-20.3.2\AndroidManifest.xml:25:9-30:39
+217            android:name="com.google.firebase.provider.FirebaseInitProvider"
+217-->[com.google.firebase:firebase-common:20.3.2] C:\Users\eldho\.gradle\caches\transforms-3\026de80ea9d0b63bfc94ec9a10c1d73c\transformed\jetified-firebase-common-20.3.2\AndroidManifest.xml:26:13-77
+218            android:authorities="com.oetlearning.app.oet_learning_app.firebaseinitprovider"
+218-->[com.google.firebase:firebase-common:20.3.2] C:\Users\eldho\.gradle\caches\transforms-3\026de80ea9d0b63bfc94ec9a10c1d73c\transformed\jetified-firebase-common-20.3.2\AndroidManifest.xml:27:13-72
+219            android:directBootAware="true"
+219-->[com.google.firebase:firebase-common:20.3.2] C:\Users\eldho\.gradle\caches\transforms-3\026de80ea9d0b63bfc94ec9a10c1d73c\transformed\jetified-firebase-common-20.3.2\AndroidManifest.xml:28:13-43
+220            android:exported="false"
+220-->[com.google.firebase:firebase-common:20.3.2] C:\Users\eldho\.gradle\caches\transforms-3\026de80ea9d0b63bfc94ec9a10c1d73c\transformed\jetified-firebase-common-20.3.2\AndroidManifest.xml:29:13-37
+221            android:initOrder="100" />
+221-->[com.google.firebase:firebase-common:20.3.2] C:\Users\eldho\.gradle\caches\transforms-3\026de80ea9d0b63bfc94ec9a10c1d73c\transformed\jetified-firebase-common-20.3.2\AndroidManifest.xml:30:13-36
+222
+223        <activity
+223-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\eldho\.gradle\caches\transforms-3\8f31701e663a8c1514b353cc4d7239a2\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:20:9-22:45
+224            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+224-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\eldho\.gradle\caches\transforms-3\8f31701e663a8c1514b353cc4d7239a2\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:20:19-85
+225            android:exported="false"
+225-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\eldho\.gradle\caches\transforms-3\8f31701e663a8c1514b353cc4d7239a2\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:22:19-43
+226            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+226-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\eldho\.gradle\caches\transforms-3\8f31701e663a8c1514b353cc4d7239a2\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:21:19-78
+227
+228        <receiver
+228-->[com.google.android.gms:play-services-measurement:21.3.0] C:\Users\eldho\.gradle\caches\transforms-3\1dc98e173c4c17f0e6827d4bfdd02b27\transformed\jetified-play-services-measurement-21.3.0\AndroidManifest.xml:29:9-33:20
+229            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+229-->[com.google.android.gms:play-services-measurement:21.3.0] C:\Users\eldho\.gradle\caches\transforms-3\1dc98e173c4c17f0e6827d4bfdd02b27\transformed\jetified-play-services-measurement-21.3.0\AndroidManifest.xml:30:13-85
+230            android:enabled="true"
+230-->[com.google.android.gms:play-services-measurement:21.3.0] C:\Users\eldho\.gradle\caches\transforms-3\1dc98e173c4c17f0e6827d4bfdd02b27\transformed\jetified-play-services-measurement-21.3.0\AndroidManifest.xml:31:13-35
+231            android:exported="false" >
+231-->[com.google.android.gms:play-services-measurement:21.3.0] C:\Users\eldho\.gradle\caches\transforms-3\1dc98e173c4c17f0e6827d4bfdd02b27\transformed\jetified-play-services-measurement-21.3.0\AndroidManifest.xml:32:13-37
+232        </receiver>
+233
+234        <service
+234-->[com.google.android.gms:play-services-measurement:21.3.0] C:\Users\eldho\.gradle\caches\transforms-3\1dc98e173c4c17f0e6827d4bfdd02b27\transformed\jetified-play-services-measurement-21.3.0\AndroidManifest.xml:35:9-38:40
+235            android:name="com.google.android.gms.measurement.AppMeasurementService"
+235-->[com.google.android.gms:play-services-measurement:21.3.0] C:\Users\eldho\.gradle\caches\transforms-3\1dc98e173c4c17f0e6827d4bfdd02b27\transformed\jetified-play-services-measurement-21.3.0\AndroidManifest.xml:36:13-84
+236            android:enabled="true"
+236-->[com.google.android.gms:play-services-measurement:21.3.0] C:\Users\eldho\.gradle\caches\transforms-3\1dc98e173c4c17f0e6827d4bfdd02b27\transformed\jetified-play-services-measurement-21.3.0\AndroidManifest.xml:37:13-35
+237            android:exported="false" />
+237-->[com.google.android.gms:play-services-measurement:21.3.0] C:\Users\eldho\.gradle\caches\transforms-3\1dc98e173c4c17f0e6827d4bfdd02b27\transformed\jetified-play-services-measurement-21.3.0\AndroidManifest.xml:38:13-37
+238        <service
+238-->[com.google.android.gms:play-services-measurement:21.3.0] C:\Users\eldho\.gradle\caches\transforms-3\1dc98e173c4c17f0e6827d4bfdd02b27\transformed\jetified-play-services-measurement-21.3.0\AndroidManifest.xml:39:9-43:72
+239            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+239-->[com.google.android.gms:play-services-measurement:21.3.0] C:\Users\eldho\.gradle\caches\transforms-3\1dc98e173c4c17f0e6827d4bfdd02b27\transformed\jetified-play-services-measurement-21.3.0\AndroidManifest.xml:40:13-87
+240            android:enabled="true"
+240-->[com.google.android.gms:play-services-measurement:21.3.0] C:\Users\eldho\.gradle\caches\transforms-3\1dc98e173c4c17f0e6827d4bfdd02b27\transformed\jetified-play-services-measurement-21.3.0\AndroidManifest.xml:41:13-35
+241            android:exported="false"
+241-->[com.google.android.gms:play-services-measurement:21.3.0] C:\Users\eldho\.gradle\caches\transforms-3\1dc98e173c4c17f0e6827d4bfdd02b27\transformed\jetified-play-services-measurement-21.3.0\AndroidManifest.xml:42:13-37
+242            android:permission="android.permission.BIND_JOB_SERVICE" />
+242-->[com.google.android.gms:play-services-measurement:21.3.0] C:\Users\eldho\.gradle\caches\transforms-3\1dc98e173c4c17f0e6827d4bfdd02b27\transformed\jetified-play-services-measurement-21.3.0\AndroidManifest.xml:43:13-69
+243
+244        <meta-data
+244-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\eldho\.gradle\caches\transforms-3\ad3fb7e0e58165c0e3c87f8f0d79631f\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:21:9-23:69
+245            android:name="com.google.android.gms.version"
+245-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\eldho\.gradle\caches\transforms-3\ad3fb7e0e58165c0e3c87f8f0d79631f\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:22:13-58
+246            android:value="@integer/google_play_services_version" />
+246-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\eldho\.gradle\caches\transforms-3\ad3fb7e0e58165c0e3c87f8f0d79631f\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:23:13-66
+247
+248        <provider
+248-->[androidx.emoji2:emoji2:1.2.0] C:\Users\eldho\.gradle\caches\transforms-3\228419e26f5d253cbabc1a5dced15ed0\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+249            android:name="androidx.startup.InitializationProvider"
+249-->[androidx.emoji2:emoji2:1.2.0] C:\Users\eldho\.gradle\caches\transforms-3\228419e26f5d253cbabc1a5dced15ed0\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:25:13-67
+250            android:authorities="com.oetlearning.app.oet_learning_app.androidx-startup"
+250-->[androidx.emoji2:emoji2:1.2.0] C:\Users\eldho\.gradle\caches\transforms-3\228419e26f5d253cbabc1a5dced15ed0\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:26:13-68
+251            android:exported="false" >
+251-->[androidx.emoji2:emoji2:1.2.0] C:\Users\eldho\.gradle\caches\transforms-3\228419e26f5d253cbabc1a5dced15ed0\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:27:13-37
+252            <meta-data
+252-->[androidx.emoji2:emoji2:1.2.0] C:\Users\eldho\.gradle\caches\transforms-3\228419e26f5d253cbabc1a5dced15ed0\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+253                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+253-->[androidx.emoji2:emoji2:1.2.0] C:\Users\eldho\.gradle\caches\transforms-3\228419e26f5d253cbabc1a5dced15ed0\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:30:17-75
+254                android:value="androidx.startup" />
+254-->[androidx.emoji2:emoji2:1.2.0] C:\Users\eldho\.gradle\caches\transforms-3\228419e26f5d253cbabc1a5dced15ed0\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:31:17-49
+255            <meta-data
+255-->[androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\eldho\.gradle\caches\transforms-3\49312778096aa9fd5ae6308578ecbdb0\transformed\jetified-lifecycle-process-2.6.1\AndroidManifest.xml:29:13-31:52
+256                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+256-->[androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\eldho\.gradle\caches\transforms-3\49312778096aa9fd5ae6308578ecbdb0\transformed\jetified-lifecycle-process-2.6.1\AndroidManifest.xml:30:17-78
+257                android:value="androidx.startup" />
+257-->[androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\eldho\.gradle\caches\transforms-3\49312778096aa9fd5ae6308578ecbdb0\transformed\jetified-lifecycle-process-2.6.1\AndroidManifest.xml:31:17-49
+258            <meta-data
+258-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\eldho\.gradle\caches\transforms-3\ef4c45e08659a72755f147d134c0e2af\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:29:13-31:52
+259                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+259-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\eldho\.gradle\caches\transforms-3\ef4c45e08659a72755f147d134c0e2af\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:30:17-85
+260                android:value="androidx.startup" />
+260-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\eldho\.gradle\caches\transforms-3\ef4c45e08659a72755f147d134c0e2af\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:31:17-49
+261        </provider>
+262
+263        <uses-library
+263-->[androidx.window:window:1.0.0-beta04] C:\Users\eldho\.gradle\caches\transforms-3\40ff8c014bc3b03149787e1d45a42dea\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:25:9-27:40
+264            android:name="androidx.window.extensions"
+264-->[androidx.window:window:1.0.0-beta04] C:\Users\eldho\.gradle\caches\transforms-3\40ff8c014bc3b03149787e1d45a42dea\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:26:13-54
+265            android:required="false" />
+265-->[androidx.window:window:1.0.0-beta04] C:\Users\eldho\.gradle\caches\transforms-3\40ff8c014bc3b03149787e1d45a42dea\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:27:13-37
+266        <uses-library
+266-->[androidx.window:window:1.0.0-beta04] C:\Users\eldho\.gradle\caches\transforms-3\40ff8c014bc3b03149787e1d45a42dea\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:28:9-30:40
+267            android:name="androidx.window.sidecar"
+267-->[androidx.window:window:1.0.0-beta04] C:\Users\eldho\.gradle\caches\transforms-3\40ff8c014bc3b03149787e1d45a42dea\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:29:13-51
+268            android:required="false" />
+268-->[androidx.window:window:1.0.0-beta04] C:\Users\eldho\.gradle\caches\transforms-3\40ff8c014bc3b03149787e1d45a42dea\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:30:13-37
+269
+270        <receiver
+270-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\eldho\.gradle\caches\transforms-3\ef4c45e08659a72755f147d134c0e2af\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:34:9-52:20
+271            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+271-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\eldho\.gradle\caches\transforms-3\ef4c45e08659a72755f147d134c0e2af\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:35:13-76
+272            android:directBootAware="false"
+272-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\eldho\.gradle\caches\transforms-3\ef4c45e08659a72755f147d134c0e2af\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:36:13-44
+273            android:enabled="true"
+273-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\eldho\.gradle\caches\transforms-3\ef4c45e08659a72755f147d134c0e2af\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:37:13-35
+274            android:exported="true"
+274-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\eldho\.gradle\caches\transforms-3\ef4c45e08659a72755f147d134c0e2af\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:38:13-36
+275            android:permission="android.permission.DUMP" >
+275-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\eldho\.gradle\caches\transforms-3\ef4c45e08659a72755f147d134c0e2af\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:39:13-57
+276            <intent-filter>
+276-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\eldho\.gradle\caches\transforms-3\ef4c45e08659a72755f147d134c0e2af\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:40:13-42:29
+277                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+277-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\eldho\.gradle\caches\transforms-3\ef4c45e08659a72755f147d134c0e2af\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:41:17-91
+277-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\eldho\.gradle\caches\transforms-3\ef4c45e08659a72755f147d134c0e2af\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:41:25-88
+278            </intent-filter>
+279            <intent-filter>
+279-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\eldho\.gradle\caches\transforms-3\ef4c45e08659a72755f147d134c0e2af\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:43:13-45:29
+280                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+280-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\eldho\.gradle\caches\transforms-3\ef4c45e08659a72755f147d134c0e2af\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:44:17-85
+280-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\eldho\.gradle\caches\transforms-3\ef4c45e08659a72755f147d134c0e2af\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:44:25-82
+281            </intent-filter>
+282            <intent-filter>
+282-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\eldho\.gradle\caches\transforms-3\ef4c45e08659a72755f147d134c0e2af\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:46:13-48:29
+283                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+283-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\eldho\.gradle\caches\transforms-3\ef4c45e08659a72755f147d134c0e2af\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:47:17-88
+283-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\eldho\.gradle\caches\transforms-3\ef4c45e08659a72755f147d134c0e2af\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:47:25-85
+284            </intent-filter>
+285            <intent-filter>
+285-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\eldho\.gradle\caches\transforms-3\ef4c45e08659a72755f147d134c0e2af\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:49:13-51:29
+286                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+286-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\eldho\.gradle\caches\transforms-3\ef4c45e08659a72755f147d134c0e2af\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:50:17-95
+286-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\eldho\.gradle\caches\transforms-3\ef4c45e08659a72755f147d134c0e2af\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:50:25-92
+287            </intent-filter>
+288        </receiver>
+289    </application>
+290
+291</manifest>
